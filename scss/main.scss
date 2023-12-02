@@ -2,4 +2,169 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    text-decoration: none;
 }
+
+
+
+.body {
+    font-family: 'Golos Text' sans-serif;
+}
+
+.container {
+    max-width: 1098px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo  h2 {
+    width: 155px;
+  color:rgb(219, 58, 58);
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: 40px;
+    margin-top: 30px;
+    // margin-right: 20px;
+    max-width: 1098px;
+    font-family: 'Golos Text';
+
+}
+.logo span {
+    color:rgb(24, 24, 138);
+   
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .button button {
+    width: 116px;
+    height: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border:none;
+    cursor: pointer;
+    background:#d92e15;
+    border-radius: 10px;
+}
+
+header .button h4 {
+    color:#fff;
+    font-size: 15px;
+   font-family: 'Golos Text';
+}
+
+.header .seach {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+header .seach input {
+    width: 338px;
+    height: 52px;
+    border-radius:10px;
+    border: 0.5px solid gray;
+    opacity: 1;
+}
+
+header .seach input  {
+    padding-left: 20px;
+    font-family: 'Golos Text';
+}
+
+header .seach  a {
+    width: 74px;
+    height: 43px;
+  position: absolute;
+  top: 63px;
+  left: 640px;   
+
+}
+
+.header .link_elements {
+display: flex;
+justify-content: space-evenly;
+gap: 30px;
+text-align: center;
+    }
+
+    .header .link_elements p {
+        font-size: 14px;
+       color:#1d242f;
+    }
+
+    .header .link_elements .buyurtma {
+        width: 108px;
+        height: 52px;
+        align-items:center
+    }
+
+    .header .link_elements .buyurtma p {
+        font-size: 14px;
+    }
+
+    
+    .header .link_elements img {
+        margin-bottom: 10px;
+    }
+
+    .nav {
+        margin-top: 20px;
+    }
+
+    .nav .links  ul {
+        max-width: 1068px;
+        display: flex;
+        font-size: 14px;
+   font-family: 'Golos Text';
+   align-items:center;
+   text-align: center;
+        // margin-right: -100px;
+        // margin-left: 30px;
+        gap: 30px;
+        list-style: none;
+        justify-content: space-around;
+    }
+
+    .nav .links  ul li a{
+        color:#6C7168;
+        &:hover{
+        color:#0f0f0f;
+        }
+    }
+
+    .nav .links ul li a  {
+        width: 248px;
+    }
+
+    .nav .links  ul .green {
+        width: 250px;
+        height: 25px;
+       padding-left: 24px;
+       padding-right: 17px;
+       border:none;
+
+     padding-top: 5px;
+     background-image: url(/img/aksiya.svg);
+        font-size: 12px;
+        // border: 1px solid black;
+        border-radius:10px;
+    }
+
+    .nav .links  ul .green a{
+        color:#fff;
+        &:hover{
+            color:#dee9d6;
+        }
+    }
