@@ -1,0 +1,4 @@
+<svg class="w-[14px] h-[14px]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14"  height="14" ><defs><symbol width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" id="location">
+      <path d="M7.00016 7.29163C7.96666 7.29163 8.75016 6.50812 8.75016 5.54163C8.75016 4.57513 7.96666 3.79163 7.00016 3.79163C6.03366 3.79163 5.25016 4.57513 5.25016 5.54163C5.25016 6.50812 6.03366 7.29163 7.00016 7.29163Z" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M7.00016 12.8333C8.16683 10.5 11.6668 8.99395 11.6668 5.83329C11.6668 3.25596 9.57749 1.16663 7.00016 1.16663C4.42283 1.16663 2.3335 3.25596 2.3335 5.83329C2.3335 8.99395 5.8335 10.5 7.00016 12.8333Z" stroke-linecap="round" stroke-linejoin="round"></path>
+    </symbol></defs><use xlink:href="#location" width="100%" height="100%" stroke="#6C7178"></use></svg>

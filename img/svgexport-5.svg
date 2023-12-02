@@ -1,0 +1,3 @@
+<svg class="w-[24px] h-[24px]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25"  height="24" ><defs><symbol xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none" id="header_catalogue">
+      <path d="M3.5 12H21.5M3.5 6H21.5M9.5 18H21.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    </symbol></defs><use xlink:href="#header_catalogue" width="100%" height="100%" stroke="#FFFFFF"></use></svg>
