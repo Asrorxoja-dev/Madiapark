@@ -714,3 +714,513 @@ margin-bottom: 10px;
     border-radius:10px;
     padding: 10px;
 }
+
+// yangiliklar bolimi
+
+
+.yangiliklar .news-1 .zavod {
+    width: 45px;
+    height: 20px;
+    border:none;
+    background:#d32140;
+    border-radius: 5px;
+    font-size: 9px;
+margin-top: 50px;
+margin-bottom: 20px;
+    color:#fff;
+}
+
+.yangiliklar .news-1 h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.yangiliklar .news-1 .bonus {
+    width: 160px;
+    height: 25px;
+    font-size: 12px;
+  
+    border:1px solid black;
+    cursor: pointer;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+
+.yangiliklar .news-1 .som {
+    font-size: 14px;
+    // width: 120px;
+    height: 18px;
+    margin-bottom: 10px; 
+   
+}
+
+.yangiliklar .news-1 .televizor-name {
+    font-size: 12px;
+    width: 160px;
+    color:#6C7168;
+    margin-bottom: 22px;
+}
+
+.yangiliklar .news-1 .end-buttons 
+{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+   
+}
+
+.yangiliklar .news-1 .end-buttons button {
+    padding:10px 14px;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover{
+        background:#d4d8d0;
+    }
+}
+
+
+.yangiliklar .news-1 .end-buttons  .button-1 {
+    color:#d92e15;
+}
+
+.yangiliklar .new-box {
+    display: flex;
+    gap: 10px;
+    margin-left: -70px;
+}
+
+// news-2
+
+.yangiliklar .news-2 .zavod {
+    width: 45px;
+    height: 20px;
+    border:none;
+    background:#d32140;
+    border-radius: 5px;
+    font-size: 9px;
+margin-top: 50px;
+margin-bottom: 20px;
+    color:#fff;
+}
+
+.yangiliklar .news-2 h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.yangiliklar .news-2 .bonus {
+    width: 160px;
+    height: 25px;
+    font-size: 12px;
+  
+    border:1px solid black;
+    cursor: pointer;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+
+.yangiliklar .news-2 .som {
+    font-size: 14px;
+    // width: 120px;
+    height: 18px;
+    margin-bottom: 10px; 
+   
+}
+
+.yangiliklar .news-2 .televizor-name {
+    font-size: 12px;
+    width: 160px;
+    color:#6C7168;
+    margin-bottom: 22px;
+}
+
+.yangiliklar .news-2 .end-buttons 
+{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+   
+}
+
+.yangiliklar .news-2 .end-buttons button {
+    padding:10px 14px;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover{
+        background:#d4d8d0;
+    }
+}
+
+
+.yangiliklar .news-2 .end-buttons  .button-1 {
+    color:#d92e15;
+   
+}
+
+// news-3
+
+
+.yangiliklar .news-3 .zavod {
+    width: 45px;
+    height: 20px;
+    border:none;
+    background:#d32140;
+    border-radius: 5px;
+    font-size: 9px;
+margin-top: 50px;
+margin-bottom: 20px;
+    color:#fff;
+}
+
+.yangiliklar .news-3 h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.yangiliklar .news-3 .bonus {
+    width: 160px;
+    height: 25px;
+    font-size: 12px;
+  
+    border:1px solid black;
+    cursor: pointer;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+
+.yangiliklar .news-3 .som {
+    font-size: 14px;
+    // width: 120px;
+    height: 18px;
+    margin-bottom: 10px; 
+   
+}
+
+.yangiliklar .news-3 .televizor-name {
+    font-size: 12px;
+    width: 160px;
+    color:#6C7168;
+    margin-bottom: 42px;
+}
+
+.yangiliklar .news-3 .end-buttons 
+{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+   
+}
+
+.yangiliklar .news-3 .end-buttons button {
+    padding:10px 14px;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover{
+        background:#d4d8d0;
+    }
+}
+
+
+.yangiliklar .news-3 .end-buttons  .button-1 {
+    color:#d92e15;
+}
+
+
+// news-4
+
+
+.yangiliklar .news-4 .zavod {
+    width: 45px;
+    height: 20px;
+    border:none;
+    background:#d32140;
+    border-radius: 5px;
+    font-size: 9px;
+margin-top: 50px;
+margin-bottom: 20px;
+    color:#fff;
+}
+
+.yangiliklar .news-4 h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.yangiliklar .news-4 .bonus {
+    width: 160px;
+    height: 25px;
+    font-size: 12px;
+  
+    border:1px solid black;
+    cursor: pointer;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+
+.yangiliklar .news-4 .som {
+    font-size: 14px;
+    // width: 120px;
+    height: 18px;
+    margin-bottom: 10px; 
+   
+}
+
+.yangiliklar .news-4 .televizor-name {
+    font-size: 12px;
+    width: 160px;
+    color:#6C7168;
+    margin-bottom: 42px;
+}
+
+.yangiliklar .news-4 .end-buttons 
+{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+   
+}
+
+.yangiliklar .news-4 .end-buttons button {
+    padding:10px 14px;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover{
+        background:#d4d8d0;
+    }
+}
+
+
+.yangiliklar .news-4 .end-buttons  .button-1 {
+    color:#d92e15;
+}
+
+
+// news-5
+.yangiliklar .news-5 .zavod {
+    width: 45px;
+    height: 20px;
+    border:none;
+    background:#d32140;
+    border-radius: 5px;
+    font-size: 9px;
+margin-top: 50px;
+margin-bottom: 20px;
+    color:#fff;
+}
+
+.yangiliklar .news-5 h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.yangiliklar .news-5 .bonus {
+    width: 160px;
+    height: 25px;
+    font-size: 12px;
+  
+    border:1px solid black;
+    cursor: pointer;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+
+.yangiliklar .news-5 .som {
+    font-size: 14px;
+    // width: 120px;
+    height: 18px;
+    // margin-bottom: 10px; 
+  
+}
+
+.yangiliklar .news-5 .televizor-name {
+    font-size: 12px;
+    width: 160px;
+    color:#6C7168;
+    margin-top: 35px;
+    // margin-bottom: 22px;
+}
+
+.yangiliklar .news-5 .end-buttons 
+{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+   
+}
+
+.yangiliklar .news-5 .end-buttons button {
+    padding:10px 14px;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover{
+        background:#d4d8d0;
+    }
+}
+
+
+.yangiliklar .news-5 .end-buttons  .button-1 {
+    color:#d92e15;
+}
+
+// mews-5 
+
+.yangiliklar .news-5 .zavod {
+    width: 45px;
+    height: 20px;
+    border:none;
+    background:#d32140;
+    border-radius: 5px;
+    font-size: 9px;
+margin-top: 50px;
+margin-bottom: 20px;
+    color:#fff;
+}
+
+.yangiliklar .news-5 h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.yangiliklar .news-5 .bonus {
+    width: 160px;
+    height: 25px;
+    font-size: 12px;
+  
+    border:1px solid black;
+    cursor: pointer;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+
+.yangiliklar .news-5 .som {
+    font-size: 14px;
+    // width: 120px;
+    height: 18px;
+    margin-bottom: 10px; 
+   
+}
+
+.yangiliklar .news-5 .televizor-name {
+    font-size: 12px;
+    width: 160px;
+    color:#6C7168;
+    margin-bottom: 22px;
+}
+
+.yangiliklar .news-5 .end-buttons 
+{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+   
+}
+
+.yangiliklar .news-5 .end-buttons button {
+    padding:10px 14px;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover{
+        background:#d4d8d0;
+    }
+}
+
+
+.yangiliklar .news-5 .end-buttons  .button-1 {
+    color:#d92e15;
+}
+
+// news-6
+
+
+.yangiliklar .news-6 .zavod {
+    width: 45px;
+    height: 20px;
+    border:none;
+    background:#d32140;
+    border-radius: 5px;
+    font-size: 9px;
+margin-top: 50px;
+margin-bottom: 20px;
+    color:#fff;
+}
+
+.yangiliklar .news-6 h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.yangiliklar .news-6 .bonus {
+    width: 160px;
+    height: 25px;
+    font-size: 12px;
+  
+    border:1px solid black;
+    cursor: pointer;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+
+.yangiliklar .news-6 .som {
+    font-size: 14px;
+    // width: 120px;
+    height: 18px;
+    margin-bottom: 10px; 
+   
+}
+
+.yangiliklar .news-6 .televizor-name {
+    font-size: 12px;
+    width: 160px;
+    color:#6C7168;
+    margin-bottom: 52px;
+}
+
+.yangiliklar .news-6 .end-buttons 
+{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+   
+}
+
+.yangiliklar .news-6 .end-buttons button {
+    padding:10px 14px;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover{
+        background:#d4d8d0;
+    }
+}
+
+
+.yangiliklar .news-6 .end-buttons  .button-1 {
+    color:#d92e15;
+}
+
+
+.yangiliklar .news-1, .news-2, .news-3, .news-4, .news-5, .news-6 {
+    border:1px solid rgb(248, 247, 247);
+    border-radius:10px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.yangiliklar .news-title {
+    margin-bottom: 30px;
+}
