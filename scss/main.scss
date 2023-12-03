@@ -2696,3 +2696,20 @@ border:none;
     color:#6C7168;
 }
 }
+
+.social {
+    padding: 10px;
+    background:#1d242f;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social .img {
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+.social h3 {
+    color:#cbccc9;
+}
