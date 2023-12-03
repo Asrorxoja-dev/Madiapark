@@ -1090,4 +1090,445 @@ header .button h4 {
 
 .yangiliklar .news-title {
   margin-bottom: 30px;
+}
+
+.xitlar {
+  margin-bottom: 50px;
+}
+
+.xitlar h2 {
+  margin-bottom: 30px;
+}
+
+.xitlar .xit-box {
+  display: flex;
+  gap: 20px;
+  margin-left: -50px;
+  margin-bottom: 50px;
+}
+
+.xitlar .xit-1 .zavod {
+  width: 45px;
+  height: 20px;
+  border: none;
+  background: #d32140;
+  border-radius: 5px;
+  font-size: 9px;
+  margin-top: 40px;
+  align-items: center;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.xitlar .xit-1 h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.xitlar .xit-1 .bonus {
+  width: 160px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.xitlar .xit-1 .som {
+  font-size: 14px;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.xitlar .xit-1 .televizor-name {
+  font-size: 12px;
+  width: 160px;
+  color: #6C7168;
+  margin-bottom: 22px;
+}
+
+.xitlar .xit-1 .sara {
+  border: none;
+  cursor: pointer;
+  margin-left: 70px;
+  background: none;
+}
+
+.xitlar .xit-1 .sara button {
+  margin-top: 100px;
+}
+
+.xitlar .xit-1 .savat-button button {
+  width: 164px;
+  height: 52px;
+  font: 14px;
+  cursor: pointer;
+  color: #fff;
+  padding: 14px 10px;
+  background: #d92e15;
+  border: none;
+  border-radius: 10px;
+}
+.xitlar .xit-1 .savat-button button:hover {
+  background: #a7220e;
+}
+
+.xitlar .xit-2 .zavod {
+  width: 45px;
+  height: 20px;
+  border: none;
+  background: #d32140;
+  border-radius: 5px;
+  font-size: 9px;
+  margin-top: 40px;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.xitlar .xit-2 h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.xitlar .xit-2 .bonus {
+  width: 160px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.xitlar .xit-2 .som {
+  font-size: 14px;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.xitlar .xit-2 .televizor-name {
+  font-size: 12px;
+  width: 160px;
+  color: #6C7168;
+  margin-bottom: 22px;
+}
+
+.xitlar .xit-2 .sara {
+  border: none;
+  cursor: pointer;
+  margin-left: 70px;
+  background: none;
+}
+
+.xitlar .xit-2 .sara button {
+  margin-top: 100px;
+}
+
+.xitlar .xit-2 .savat-button button {
+  width: 164px;
+  height: 52px;
+  font: 14px;
+  cursor: pointer;
+  color: #fff;
+  padding: 14px 10px;
+  background: #d92e15;
+  border: none;
+  border-radius: 10px;
+}
+.xitlar .xit-2 .savat-button button:hover {
+  background: #a7220e;
+}
+
+.xitlar .xit-3 .zavod {
+  width: 45px;
+  height: 20px;
+  border: none;
+  background: #d32140;
+  border-radius: 5px;
+  font-size: 9px;
+  margin-top: 40px;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.xitlar .xit-3 h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.xitlar .xit-3 .bonus {
+  width: 160px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.xitlar .xit-3 .som {
+  font-size: 14px;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.xitlar .xit-3 .televizor-name {
+  font-size: 12px;
+  width: 160px;
+  color: #6C7168;
+  margin-bottom: 52px;
+}
+
+.xitlar .xit-3 .sara {
+  border: none;
+  cursor: pointer;
+  margin-left: 70px;
+  background: none;
+}
+
+.xitlar .xit-3 .sara button {
+  margin-top: 100px;
+}
+
+.xitlar .xit-3 .savat-button button {
+  width: 164px;
+  height: 52px;
+  font: 14px;
+  cursor: pointer;
+  color: #fff;
+  padding: 14px 10px;
+  background: #d92e15;
+  border: none;
+  border-radius: 10px;
+}
+.xitlar .xit-3 .savat-button button:hover {
+  background: #a7220e;
+}
+
+.xitlar .xit-4 .zavod {
+  width: 45px;
+  height: 20px;
+  border: none;
+  background: #d32140;
+  border-radius: 5px;
+  font-size: 9px;
+  margin-top: 40px;
+  align-items: center;
+  margin-bottom: 70px;
+  color: #fff;
+}
+
+.xitlar .xit-4 h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.xitlar .xit-4 .bonus {
+  width: 160px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.xitlar .xit-4 .som {
+  font-size: 14px;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.xitlar .xit-4 .televizor-name {
+  font-size: 12px;
+  width: 160px;
+  color: #6C7168;
+  margin-bottom: 46px;
+}
+
+.xitlar .xit-4 .sara {
+  border: none;
+  cursor: pointer;
+  margin-left: 70px;
+  background: none;
+}
+
+.xitlar .xit-4 .sara button {
+  margin-top: 100px;
+}
+
+.xitlar .xit-4 .savat-button button {
+  width: 164px;
+  height: 52px;
+  font: 14px;
+  cursor: pointer;
+  color: #fff;
+  padding: 14px 10px;
+  background: #d92e15;
+  border: none;
+  border-radius: 10px;
+}
+.xitlar .xit-4 .savat-button button:hover {
+  background: #a7220e;
+}
+
+.xitlar .xit-5 .old-price {
+  margin-top: 15px;
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.xitlar .xit-5 .zavod {
+  width: 45px;
+  height: 20px;
+  border: none;
+  background: #d32140;
+  border-radius: 5px;
+  font-size: 9px;
+  margin-top: 40px;
+  align-items: center;
+  margin-bottom: 60px;
+  color: #fff;
+}
+
+.xitlar .xit-5 h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.xitlar .xit-5 .bonus {
+  width: 160px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.xitlar .xit-5 .som {
+  font-size: 14px;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.xitlar .xit-5 .televizor-name {
+  font-size: 12px;
+  width: 160px;
+  color: #6C7168;
+  margin-bottom: 55px;
+}
+
+.xitlar .xit-5 .sara {
+  border: none;
+  cursor: pointer;
+  margin-left: 70px;
+  background: none;
+}
+
+.xitlar .xit-5 .sara button {
+  margin-top: 100px;
+}
+
+.xitlar .xit-5 .savat-button button {
+  width: 164px;
+  height: 52px;
+  font: 14px;
+  cursor: pointer;
+  color: #fff;
+  padding: 14px 10px;
+  background: #d92e15;
+  border: none;
+  border-radius: 10px;
+}
+.xitlar .xit-5 .savat-button button:hover {
+  background: #a7220e;
+}
+
+.xitlar .xit-6 .old-price {
+  margin-top: 15px;
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.xitlar .xit-6 .zavod {
+  width: 45px;
+  height: 20px;
+  border: none;
+  background: #d32140;
+  border-radius: 5px;
+  font-size: 9px;
+  margin-top: 40px;
+  align-items: center;
+  color: #fff;
+}
+
+.xitlar .xit-6 h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.xitlar .xit-6 .bonus {
+  width: 160px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.xitlar .xit-6 .som {
+  font-size: 14px;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.xitlar .xit-6 .televizor-name {
+  font-size: 12px;
+  width: 160px;
+  color: #6C7168;
+  margin-bottom: 22px;
+}
+
+.xitlar .xit-6 .sara {
+  border: none;
+  cursor: pointer;
+  margin-left: 70px;
+  background: none;
+}
+
+.xitlar .xit-6 .sara button {
+  margin-top: 100px;
+}
+
+.xitlar .xit-6 .savat-button button {
+  width: 164px;
+  height: 52px;
+  font: 14px;
+  cursor: pointer;
+  color: #fff;
+  padding: 14px 10px;
+  background: #d92e15;
+  border: none;
+  border-radius: 10px;
+}
+.xitlar .xit-6 .savat-button button:hover {
+  background: #a7220e;
+}
+
+.xitlar .xit-1, .xit-2, .xit-3, .xit-4, .xit-5, .xit-6 {
+  border: 1px solid rgb(248, 247, 247);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=main.css.map */
