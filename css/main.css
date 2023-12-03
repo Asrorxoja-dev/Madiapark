@@ -22,6 +22,7 @@ body {
 }
 
 .header {
+  max-width: 1198px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,7 +43,19 @@ header .logo {
   gap: 20px;
 }
 
-header .button button {
+.header .button button {
+  display: flex;
+  color: #cbccc9;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .button button img {
+  border-radius: 100px;
+  background-color: none;
+}
+
+.header .button button {
   width: 116px;
   height: 48px;
   padding-left: 16px;
@@ -53,11 +66,15 @@ header .button button {
   cursor: pointer;
   background: #d92e15;
   border-radius: 10px;
+  transition: all 0.5s;
+}
+.header .button button:hover {
+  background: #a7220e;
 }
 
 header .button h4 {
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   font-family: "Golos Text";
 }
 
@@ -66,7 +83,7 @@ header .button h4 {
   margin-right: 50px;
 }
 
-header .seach input {
+.header .seach input {
   width: 338px;
   height: 52px;
   border-radius: 10px;
@@ -74,16 +91,16 @@ header .seach input {
   opacity: 1;
 }
 
-header .seach input {
+.header .seach input {
   padding-left: 20px;
   font-family: "Golos Text";
 }
 
-header .seach a {
+.header .seach a {
   width: 74px;
   height: 43px;
   position: absolute;
-  top: 63px;
+  top: 65px;
   left: 640px;
 }
 
@@ -126,15 +143,17 @@ header .seach a {
   align-items: center;
   text-align: center;
   gap: 30px;
+  transition: all 0.5s;
   list-style: none;
   justify-content: space-around;
 }
 
 .nav .links ul li a {
+  transition: all 0.5s;
   color: #6C7168;
 }
 .nav .links ul li a:hover {
-  color: #0f0f0f;
+  color: #000000;
 }
 
 .nav .links ul li a {
@@ -187,7 +206,7 @@ header .seach a {
   color: #1d242f;
 }
 
-.main .box .noutbuklar, .televizorlar, .Changyutgichlar, .kir-yuvish-mashinalari {
+.main .box .noutbuklar, .televizorlar, .Changyutgichlar, .kir-yuvish-mashinalari, .Muzlatgichlar, .smartfonlar {
   display: flex;
   gap: 15px;
   align-items: center;
@@ -222,4 +241,408 @@ header .seach a {
   padding-right: 15px;
   color: #fff;
   border-radius: 15px;
+}
+
+.price {
+  display: flex;
+  max-width: 1100px;
+  gap: 10px;
+  margin-bottom: 50px;
+  margin-left: -80px;
+}
+
+.price .tele-1 .zavod {
+  width: 88px;
+  height: 20px;
+  border: none;
+  background: #0e7e2e;
+  border-radius: 10px;
+  font-size: 9px;
+  color: #fff;
+}
+
+.price .tele-1 .old-price {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.price .tele-1 h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.price .tele-1 .bonus {
+  width: 160px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.price .tele-1 .som {
+  font-size: 14px;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.price .tele-1 .televizor-name {
+  font-size: 12px;
+  width: 160px;
+  color: #6C7168;
+  margin-bottom: 45px;
+}
+
+.price .tele-1 .end-buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.price .tele-1 .end-buttons button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.price .tele-1 .end-buttons button:hover {
+  background: #d4d8d0;
+}
+
+.price .tele-1 .end-buttons .button-1 {
+  color: #d92e15;
+}
+
+.price .tele-2 .zavod {
+  width: 88px;
+  height: 20px;
+  border: none;
+  background: #0e7e2e;
+  border-radius: 10px;
+  font-size: 9px;
+  color: #fff;
+}
+
+.price .tele-2 .old-price {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.price .tele-2 h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.price .tele-2 .bonus {
+  width: 160px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.price .tele-2 .som {
+  font-size: 14px;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.price .tele-2 .televizor-name {
+  font-size: 12px;
+  width: 160px;
+  color: #6C7168;
+  margin-bottom: 30px;
+}
+
+.price .tele-2 .end-buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.price .tele-2 .end-buttons button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.price .tele-2 .end-buttons button:hover {
+  background: #d4d8d0;
+}
+
+.price .tele-2 .end-buttons .button-1 {
+  color: #d92e15;
+}
+
+.price .tele-3 .zavod {
+  width: 88px;
+  height: 20px;
+  border: none;
+  background: #0e7e2e;
+  border-radius: 10px;
+  font-size: 9px;
+  color: #fff;
+}
+
+.price .tele-3 .old-price {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.price .tele-3 h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.price .tele-3 .bonus {
+  width: 160px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.price .tele-3 .som {
+  font-size: 14px;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.price .tele-3 .televizor-name {
+  font-size: 12px;
+  width: 160px;
+  color: #6C7168;
+  margin-bottom: 25px;
+}
+
+.price .tele-3 .end-buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.price .tele-3 .end-buttons button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.price .tele-3 .end-buttons button:hover {
+  background: #d4d8d0;
+}
+
+.price .tele-3 .end-buttons .button-1 {
+  color: #d92e15;
+}
+
+.price .tele-4 .zavod {
+  width: 88px;
+  height: 20px;
+  border: none;
+  background: #0e7e2e;
+  border-radius: 10px;
+  font-size: 9px;
+  color: #fff;
+}
+
+.price .tele-4 .old-price {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.price .tele-4 h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.price .tele-4 .bonus {
+  width: 160px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.price .tele-4 .som {
+  font-size: 14px;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.price .tele-4 .televizor-name {
+  font-size: 12px;
+  width: 160px;
+  color: #6C7168;
+  margin-bottom: 45px;
+}
+
+.price .tele-4 .end-buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.price .tele-4 .end-buttons button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.price .tele-4 .end-buttons button:hover {
+  background: #d4d8d0;
+}
+
+.price .tele-4 .end-buttons .button-1 {
+  color: #d92e15;
+}
+
+.price .tele-5 .zavod {
+  width: 88px;
+  height: 20px;
+  border: none;
+  background: #0e7e2e;
+  border-radius: 10px;
+  font-size: 9px;
+  color: #fff;
+}
+
+.price .tele-5 .old-price {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.price .tele-5 h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.price .tele-5 .bonus {
+  width: 160px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.price .tele-5 .som {
+  font-size: 14px;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.price .tele-5 .televizor-name {
+  font-size: 12px;
+  width: 160px;
+  color: #6C7168;
+  margin-bottom: 30px;
+}
+
+.price .tele-5 .end-buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.price .tele-5 .end-buttons button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.price .tele-5 .end-buttons button:hover {
+  background: #d4d8d0;
+}
+
+.price .tele-5 .end-buttons .button-1 {
+  color: #d92e15;
+}
+
+.price .tele-6 .zavod {
+  width: 88px;
+  height: 20px;
+  border: none;
+  background: #0e7e2e;
+  border-radius: 10px;
+  font-size: 9px;
+  color: #fff;
+}
+
+.price .tele-6 .old-price {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.price .tele-6 h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.price .tele-6 .bonus {
+  width: 160px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.price .tele-6 .som {
+  font-size: 14px;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.price .tele-6 .televizor-name {
+  font-size: 12px;
+  width: 160px;
+  color: #6C7168;
+  margin-bottom: 42px;
+}
+
+.price .tele-6 .end-buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.price .tele-6 .end-buttons button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.price .tele-6 .end-buttons button:hover {
+  background: #d4d8d0;
+}
+
+.price .tele-6 .end-buttons .button-1 {
+  color: #d92e15;
+}
+
+.price .tele-1, .tele-2, .tele-3, .tele-4, .tele-5, .tele-6 {
+  border: 1px solid rgb(248, 247, 247);
+  border-radius: 10px;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
